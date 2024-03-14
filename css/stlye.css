@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(/assets/fondo\ menu.jpg);
+  font-family: "Oswald", cursive;
+  color: #ffffff;
+}
+.header-content {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container-2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-3 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.menu { 
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+
+  z-index: 2;
+}
+
+.logo {
+  font-size: 45px;
+  color: white;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.menu .navbar ul li a {
+  font-size: 22px;
+  padding: 20px;
+  color: #ffffff;
+  display: block;
+}
+
+.menu .navbar ul li a:hover {
+  color: #DD16F5;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.class-img {
+  width: 60%;
+}
+
+.position {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
+  
+  .slider {
+    background-image: url(/assets/World\ Of\ Warcraft\ War\ Within.avif);
+    background-size: contain;
+    background-position: center;
+    height: 100vh; 
+    width: 100vw; 
+    border-radius: 10px;
+    animation: animate 65s infinite;
+    z-index: 1;
+  }
+@keyframes animate {
+  5% {
+    background-image: url(/assets/World\ Of\ Warcraft\ War\ Within.avif);
+    background-size: cover;
+  }
+  10% {
+    background-image: url(/assets/Spiderman\ 1.jpg);
+    background-size: cover;
+  }
+  15% {
+    background-image: url(/assets/Red\ dead\ redemtion\ 2.jpeg);
+    background-size: cover;
+  }
+  20% {
+    background-image: url(/assets/Cyberpunk\ 2077.jpg);
+    background-size: cover;
+  }
+  25% {
+    background-image: url(/assets/Minecraft.jpg);
+    background-size: cover;
+  }
+  30% {
+    background-image: url(/assets/God\ of\ war\ 4.jpg);
+    background-size: cover;
+  }
+  35% {
+    background-image: url(/assets/Call\ of\ Duty\ Modern\ Warfare\ II.jpg);
+  }
+  40% {
+    background-image: url(/assets/Far\ Cry\ 6.jpg);
+  }
+  45% {
+    background-image: url(/assets/Elden\ Ring.jpg);
+  }
+  50% {
+    background-image: url(/assets/Forza\ Horizon\ 5.jpg);
+  }
+  120% {
+    background-image: url(/assets/Star\ Wars\ Jedi\ Fallen\ Order.jpg);
+  }
+  55% {
+    background-image: url(/assets/Injustice\ 2.jpg);
+  }
+  60% {
+    background-image: url(/assets/Dont\ Starve\ Together.png);
+  }
+  65% {
+    background-image: url(/assets/Dragon\ Ball\ Z\ Kakarot.jpg);
+  }
+  70% {
+    background-image: url(/assets/Mk\ 1.jpg);
+  }
+  75% {
+    background-image: url(/assets/Monster\ Hunter.jpg);
+  }
+  80% {
+    background-image: url(/assets/the-last-of-us-part-1-remake-joel-ellie-4k-wallpaper-uhdpaper.com-319@1@h.jpg);
+  }
+}
