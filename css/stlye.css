@@ -4,6 +4,7 @@
   padding: 0%;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
 body {
@@ -11,69 +12,108 @@ body {
   font-family: "Oswald", cursive;
   color: #ffffff;
 }
-.header-content {
-  display: flex;
-  width: 100%;
-}
 
 .container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
+  padding-left: 80px;    
 }
+
+
+
 .container-2 {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
+  padding-left: 80px;
 }
 
 .container-3 {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
+  padding-left: 80px;
 }
+
+
+
+.header-content {
+  display: flex;
+  width: 100%;   
+}
+
+
 .menu { 
   position:absolute;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 40px;
+  padding-right: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-weight: bold;
-
+  background-color: rgba(49, 49, 51, 0.63);
   z-index: 2;
 }
 
-.logo {
-  font-size: 45px;
-  color: white;
-}
+
 
 .menu ul li {
   display: inline-block;
   padding: 0px 20px;
+  
 }
 
 .menu .navbar ul li a {
   font-size: 22px;
-  padding: 20px;
+  padding: 25px;
   color: #ffffff;
   display: block;
+  
+  
 }
 
 .menu .navbar ul li a:hover {
   color: #DD16F5;
+  
 }
+
 
 #menu {
   display: none;
+  
 }
 
 .menu-icono {
   width: 25px;
+  
 }
 
 .menu label {
   cursor: pointer;
   display: none;
+  
+}
+
+
+.btn-1 {
+  display: flex;
+  
+  
+}
+
+
+.logo {
+  font-size: 45px;
+  color: white;
+  background-image: url(/assets/Logo.png);
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  border-width: 3px;
+
 }
 
 .class-img {
