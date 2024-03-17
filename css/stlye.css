@@ -205,6 +205,10 @@ hr {
   margin-bottom: 40px;
 }
 
+.container-1 {
+  margin-top: 400px;
+}
+
 .container-1,
 .container-2,
 .container-3 {
@@ -242,6 +246,7 @@ hr {
 .box-3:nth-child(3),
 .box-3:nth-child(4) {
   display: inline-block;
+  margin-bottom: 60px;
 }
 
 .load-more {
@@ -305,11 +310,13 @@ hr {
 }
 
 @media (max-width: 991px) {
-  .menu {
+  .menu  {
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
   }
+
+ 
 
   .menu label {
     display: initial;
@@ -320,14 +327,23 @@ hr {
     top: 100%;
     left: 0;
     right: 0;
-    background-color: black;
     display: none;
-  }
+    background-color: rgba(49, 49, 51, 0.63);  }
 
   .menu .navbar ul li {
     width: 100%;
   }
+  
+  .menu-hamburguesa {
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    transition: transform 0.3s ease;
+  }
 
+  .menu-hamburguesa.rotada {
+    transform: rotate(90deg);
+  }
   .btn-1 {
     display: none;
   }
@@ -347,9 +363,19 @@ hr {
     margin-top: 15px;
     justify-content: center;
   }
+
+
+  .container-1,
+  .container-2,
+  .container-3 {
+    padding-left: 50px;
+    padding-right: 80px;
+  }
+
 }
 
 
 
 
 
+  
