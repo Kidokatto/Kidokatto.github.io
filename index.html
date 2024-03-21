@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Glorius Games</title>
     <link rel="stylesheet" href="/css/stlye.css" />
+    <link rel="stylesheet" href="/css/modalStyle.css" />
   </head>
   <body>
     <header class="header">
@@ -63,45 +64,79 @@
       <div class="box-container-1">
         <div class="box-1">
           <div class="content">
-            <figure>
-              <img
-                class="class-img"
-                src="/assets/the-last-of-us-part-1-remake-joel-ellie-4k-wallpaper-uhdpaper.com-319@1@h.jpg"
-                alt="producto"
-              />
-            </figure>
             <div class="info-producto">
-              <h3>The Last Of Us</h3>
-              <p>
-                Disfruta de la emotiva historia y los inolvidables personajes de
-                The Last of Us, ganador de más de 200 premios de Juego del Año.
-              </p>
-              <br />
+              <div class="boton-modal">
+                <label class="titulo-game" for="btn-modal">
+                  The Last Of Us
+                </label>
+              </div>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/the-last-of-us-part-1-remake-joel-ellie-4k-wallpaper-uhdpaper.com-319@1@h.jpg"
+                  alt="producto" onclick="abrirModal('btn-modal')"
+                />
+              </figure>
+              <input type="checkbox" id="btn-modal" />
+              <div class="container-modal">
+                <div class="content-modal">
+                  <h2>The Last Of Us</h2>
+                  <iframe id="video-frame" src="/assets/tlou.mp4" allow="encrypted-media" frameborder="0" allowfullscreen></iframe>
+                  <p>
+                    Disfruta de la emotiva historia y los inolvidables
+                    personajes de The Last of Us, ganador de más de 200 premios
+                    de Juego del Año.
+                  </p>
+
+                  <p class="precio">$220.000</p>
+                  <button class="boton-comprar">Añadir al carrito</button>
+                  <div class="btn-cerrar">
+                    <label for="btn-modal">cerrar</label>
+                  </div>
+                </div>
+              </div>
               <p class="precio">$220.000</p>
               <button class="boton-comprar">Añadir al carrito</button>
+              <br />
             </div>
           </div>
         </div>
         <div class="box-1">
           <div class="content">
-            <figure>
-              <img
-                class="class-img"
-                src="/assets/World Of Warcraft War Within.avif"
-                alt="producto"
-              />
-            </figure>
             <div class="info-producto">
-              <h3>World Of Warcraft War Within</h3>
-              <p>
-                Viaja por inéditos mundos subterráneos, repletos de maravillas
-                ocultas y peligros al acecho, hasta las oscuras profundidades
-                del imperio nerubiano, donde la maliciosa Presagista del Vacío
-                está amasando fuerzas arácnidas para poner Azeroth de rodillas.
-              </p>
-              <br />
-              <p class="precio">$190.000</p>
+              <div class="boton-modal">
+                <label class="titulo-game" for="btn-modal1">
+                  World Of Warcraft War Within
+
+                </label>
+              </div>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/World Of Warcraft War Within.avif  "
+                  alt="producto" onclick="abrirModal('btn-modal1')"
+                />
+              </figure>
+              <input type="checkbox" id="btn-modal1" />
+              <div class="container-modal">
+                <div class="content-modal">
+                  <h2>World Of Warcraft War Within
+                  </h2>
+                  
+                  <p>
+                   Viaja por inéditos mundos subterráneos, repletos de maravillas ocultas y peligros al acecho, hasta las oscuras profundidades del imperio nerubiano, donde la maliciosa Presagista del Vacío está amasando fuerzas arácnidas para poner Azeroth de rodillas.
+                  </p>
+
+                  <p class="precio">$220.000</p>
+                  <button class="boton-comprar">Añadir al carrito</button>
+                  <div class="btn-cerrar">
+                    <label for="btn-modal1">cerrar</label>
+                  </div>
+                </div>
+              </div>
+              <p class="precio">$220.000</p>
               <button class="boton-comprar">Añadir al carrito</button>
+              <br />
             </div>
           </div>
         </div>
@@ -606,7 +641,7 @@
               />
             </figure>
             <div class="info-producto">
-              <h3>The Last Of Us</h3>
+              <h3>Sea Of Thieves</h3>
               <p>
                 Sea of Thieves es un exitoso juego de aventuras piratas que
                 ofrece la experiencia pirata por excelencia de saquear tesoros
@@ -1311,3 +1346,5 @@
   </body>
 </html>
 <!-- diagrama de caso de uso -->
+<!-- hoja de vida tablas, celdas, columnas, inputs -->
+<!-- formulario para secto de la salud (tabla) -->
