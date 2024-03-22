@@ -7,12 +7,37 @@ document.querySelector('.menu-hamburguesa').addEventListener('click', function()
   this.classList.toggle('rotada'); // Alternamos la clase rotada para mantener el estado
 });
 
-// Función para abrir el modal
-function abrirModal(id) {
-  // Obtener el checkbox que controla el modal
-  var checkbox = document.getElementById(id);
-  // Cambiar su estado de marcado/desmarcado
-  checkbox.checked = !checkbox.checked;
-  
+const openModalBtns = document.querySelectorAll('.open-modal');
+const closeModalBtns = document.querySelectorAll('.close-modal');
+const modals = document.querySelectorAll('.container-modal');
+
+openModalBtns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const modalId = btn.getAttribute('data-modal-id');
+    const modal = document.getElementById(modalId);
+    modal.style.display = 'block';
+  });
+});
+
+closeModalBtns.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const modal = btn.closest('.container-modal');
+    modal.style.display = 'none';
+  });
+});
+
+
+/*CARRUSEL IMAGENES HORIZONTALES */
+
+function openFullscreen(img) {
+  var fullscreenImg = document.getElementById("fullscreen-img");
+  fullscreenImg.src = img.src;
+  document.getElementById("fullscreen-image").style.display = "block";
 }
+
+// Cerrar la imagen en pantalla completa al hacer clic fuera de ella
+document.getElementById("fullscreen-image").addEventListener("click", function() {
+  document.getElementById("fullscreen-image").style.display = "none";
+});
+
 

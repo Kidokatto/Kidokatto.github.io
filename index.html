@@ -6,6 +6,7 @@
     <title>Glorius Games</title>
     <link rel="stylesheet" href="/css/stlye.css" />
     <link rel="stylesheet" href="/css/modalStyle.css" />
+    <link rel="stylesheet" href="/css/carousel.css">
   </head>
   <body>
     <header class="header">
@@ -65,37 +66,58 @@
         <div class="box-1">
           <div class="content">
             <div class="info-producto">
-              <div class="boton-modal">
-                <label class="titulo-game" for="btn-modal">
-                  The Last Of Us
-                </label>
-              </div>
+              <button class="open-modal" data-modal-id="modal1">
+                The Last Of Us
+              </button>
+
               <figure>
                 <img
                   class="class-img"
                   src="/assets/the-last-of-us-part-1-remake-joel-ellie-4k-wallpaper-uhdpaper.com-319@1@h.jpg"
-                  alt="producto" onclick="abrirModal('btn-modal')"
+                  alt="producto"
+                  onclick="abrirModal('btn-modal')"
                 />
               </figure>
-              <input type="checkbox" id="btn-modal" />
-              <div class="container-modal">
+
+              <div class="container-modal" id="modal1">
                 <div class="content-modal">
                   <h2>The Last Of Us</h2>
-                  <iframe id="video-frame" src="/assets/tlou.mp4" allow="encrypted-media" frameborder="0" allowfullscreen></iframe>
-                  <p>
+                  <iframe
+                    id="video-frame"
+                    src="/assets/tlou.mp4"
+                    allow="encrypted-media"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                  <p class="info-game">
                     Disfruta de la emotiva historia y los inolvidables
                     personajes de The Last of Us, ganador de más de 200 premios
                     de Juego del Año.
                   </p>
-
-                  <p class="precio">$220.000</p>
-                  <button class="boton-comprar">Añadir al carrito</button>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img src="/assets/The Last Of Us/ss_3ee73e4d741ba90d9bbabaae105c3e6d2e7941a3.600x338.jpg" alt="Image 1" onclick="openFullscreen(this)">
+                      <img src="/assets/The Last Of Us/ss_56a85dbf963bda77e1f9e7aefebbed025f33e6f3.600x338.jpg" alt="Image 2" onclick="openFullscreen(this)">
+                      <img src="/assets/The Last Of Us/ss_5d7cf9e0857d10924def80a1bb0ce8f5f8da1b02.600x338.jpg" alt="Image 3" onclick="openFullscreen(this)">
+                      <img src="/assets/The Last Of Us/ss_e67d2ca76b0c8985a3615afb38c21e893df73272.600x338.jpg" alt="Image 4" onclick="openFullscreen(this)">
+                      <img src="/assets/The Last Of Us/ss_ec1a71230d4fb477282fa7f25688af37b702ce49.600x338.jpg" alt="Image 5" onclick="openFullscreen(this)">
+                    </div>
+                  </div>
+                  
+                  <div id="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" id="fullscreen-img">
+                  </div>
+                  
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
                   <div class="btn-cerrar">
-                    <label for="btn-modal">cerrar</label>
+                    <button class="close-modal">Volver</button>
                   </div>
                 </div>
               </div>
-              <p class="precio">$220.000</p>
+              <p>$220.000</p>
               <button class="boton-comprar">Añadir al carrito</button>
               <br />
             </div>
@@ -105,26 +127,29 @@
           <div class="content">
             <div class="info-producto">
               <div class="boton-modal">
-                <label class="titulo-game" for="btn-modal1">
-                  World Of Warcraft War Within
-
+                <label for="btn-modal1">
+                  <h2 class="titulo-game">World Of Warcraft The War Whitin</h2>
                 </label>
               </div>
               <figure>
                 <img
                   class="class-img"
                   src="/assets/World Of Warcraft War Within.avif  "
-                  alt="producto" onclick="abrirModal('btn-modal1')"
+                  alt="producto"
+                  onclick="abrirModal('btn-modal1')"
                 />
               </figure>
               <input type="checkbox" id="btn-modal1" />
               <div class="container-modal">
                 <div class="content-modal">
-                  <h2>World Of Warcraft War Within
-                  </h2>
-                  
+                  <h2>World Of Warcraft War Within</h2>
+
                   <p>
-                   Viaja por inéditos mundos subterráneos, repletos de maravillas ocultas y peligros al acecho, hasta las oscuras profundidades del imperio nerubiano, donde la maliciosa Presagista del Vacío está amasando fuerzas arácnidas para poner Azeroth de rodillas.
+                    Viaja por inéditos mundos subterráneos, repletos de
+                    maravillas ocultas y peligros al acecho, hasta las oscuras
+                    profundidades del imperio nerubiano, donde la maliciosa
+                    Presagista del Vacío está amasando fuerzas arácnidas para
+                    poner Azeroth de rodillas.
                   </p>
 
                   <p class="precio">$220.000</p>

@@ -264,6 +264,8 @@ hr {
   padding: 10px 25px;
   border-radius: 15px;
   border: 1px solid #40aff8;
+  cursor: pointer;
+  transition: 300ms;
 }
 
 .boton-comprar:hover {
@@ -313,6 +315,7 @@ hr {
   padding: 100px 0;
   margin-top: 100px;
   border-top: 1px solid #40aef8a2;
+  cursor: pointer;
 }
 
 .footer ul {
@@ -398,8 +401,5 @@ hr {
   }
 
 }
-
-
-
 
   
