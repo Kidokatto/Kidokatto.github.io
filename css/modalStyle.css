@@ -73,8 +73,9 @@
     color: #40aff8;
     border: none;
     font-weight: bold;
-    max-height: 250px;
+    max-height: 30px;
     cursor: pointer;
-    
+    margin-bottom: 40px;
+
 
 }

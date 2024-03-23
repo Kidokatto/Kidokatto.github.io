@@ -18,19 +18,18 @@
   }
 
   /* Estilo para la imagen en pantalla completa */
-  #fullscreen-image {
+  .fullscreen-image {
     display: none;
     position: fixed;
     top: 147px;
     right: 327px;
     width: 100%;
     height: 100%;
-    
     z-index: 9999; /* Asegura que la imagen esté por encima de otros elementos */
     text-align: center; /* Centra la imagen horizontalmente */
   }
 
-  #fullscreen-image img {
+  .fullscreen-image img {
     width: 540px;
     height: 300px;
     

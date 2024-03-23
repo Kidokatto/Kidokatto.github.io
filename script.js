@@ -26,18 +26,17 @@ closeModalBtns.forEach((btn) => {
   });
 });
 
-
-/*CARRUSEL IMAGENES HORIZONTALES */
-
+// Función para abrir la imagen en pantalla completa
 function openFullscreen(img) {
-  var fullscreenImg = document.getElementById("fullscreen-img");
+  var fullscreenImg = img.closest(".content-modal").querySelector(".fullscreen-img");
   fullscreenImg.src = img.src;
-  document.getElementById("fullscreen-image").style.display = "block";
+  var fullscreenContainer = img.closest(".content-modal").querySelector(".fullscreen-image");
+  fullscreenContainer.style.display = "block";
 }
 
-// Cerrar la imagen en pantalla completa al hacer clic fuera de ella
-document.getElementById("fullscreen-image").addEventListener("click", function() {
-  document.getElementById("fullscreen-image").style.display = "none";
+// Event listener para cerrar la imagen en pantalla completa al hacer clic fuera de ella
+document.addEventListener("click", function(event) {
+  if (event.target.classList.contains("fullscreen-image")) {
+    event.target.style.display = "none";
+  }
 });
-
-
