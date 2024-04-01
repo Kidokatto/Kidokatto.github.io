@@ -56,7 +56,7 @@ body {
 }
 
 .menu .navbar ul li a:hover {
-  color: #40aff8;
+  color: blueviolet;
 }
 
 #menu {
@@ -91,19 +91,13 @@ body {
 
 
 .class-img {
-
   width: 100%;
+  height: 180px;
   margin-bottom: 5px;
   margin-top: 30px;
-  margin-right: 1px;
+  margin-right: 40px;
   
   
-}
-
-h3 {
-  color: #40aff8;
-  font-size: 20px;
-  margin-bottom: 15px;
 }
 
 .position {
@@ -114,7 +108,7 @@ h3 {
 }
 
 .slider {
-  background-image: url(/assets/World\ Of\ Warcraft\ War\ Within.avif);
+  background-image: url("/assets/World\ Of\ Warcraft\ War\ Within.avif");
   background-size: contain;
   background-position: center;
   height: 100vh;
@@ -125,7 +119,7 @@ h3 {
 }
 
 @keyframes animate {
-  5% {
+5% {
     background-image: url(/assets/World\ Of\ Warcraft\ War\ Within.avif);
     background-size: cover;
 } 
@@ -218,7 +212,7 @@ h2 {
 }
 
 hr {
-  border: 1px solid #40aff8;
+  border: 1px solid blueviolet;
   width: 50%;
   margin-bottom: 40px;
 }
@@ -273,13 +267,13 @@ hr {
   display: inline-block;
   padding: 10px 25px;
   border-radius: 15px;
-  border: 1px solid #40aff8;
+  border: 1px solid blueviolet;
   cursor: pointer;
   transition: 300ms;
 }
 
 .boton-comprar:hover {
-  background-color: #40aff8;
+  background-color: blueviolet;
 }
 
 .load-more {
@@ -287,15 +281,15 @@ hr {
   display: inline-block;
   padding: 10px 25px;
   border-radius: 15px;
-  border: 1px solid #40aff8;
-  color: #40aff8;
+  border: 1px solid blueviolet;
+  color: blueviolet;
   font-size: 16px;
   cursor: pointer;
   align-self: flex-end;
 }
 
 .load-more:hover {
-  background-color: #40aff8;
+  background-color: blueviolet;
   color: white;
 }
 
@@ -324,7 +318,7 @@ hr {
   align-items: center;
   padding: 100px 0;
   margin-top: 100px;
-  border-top: 1px solid #40aef8a2;
+  border-top: 1px solid blueviolet;
   cursor: pointer;
 }
 
@@ -344,7 +338,7 @@ hr {
 }
 
 .footer a:hover {
-  color: #40aff8;
+  color: blueviolet;
 }
 
 @media (max-width: 991px) {

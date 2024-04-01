@@ -57,20 +57,20 @@
     color: white;
     padding: 10px 25px;
     border-radius: 15px;
-    border: 1px solid #40aff8;
+    border: 1px solid blueviolet;
     cursor: pointer;
     transition: 300ms;
 }
 
 .close-modal:hover {
-    background-color: #40aff8;
+    background-color: blueviolet;
 }
 
 .open-modal {
     font-size: 30px;
     background-color: black;
     padding: 5px;
-    color: #40aff8;
+    color:  white;
     border: none;
     font-weight: bold;
     max-height: 30px;
