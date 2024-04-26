@@ -44,4 +44,23 @@ document.addEventListener("click", function(event) {
 
 
 
-// buscador 
+// Transicion
+
+document.addEventListener('DOMContentLoaded', function() {
+  var enlaces = document.querySelectorAll('a.link');
+
+  for (var i = 0; i < enlaces.length; i++) {
+    enlaces[i].addEventListener('click', function(event) {
+      event.preventDefault(); // Evita que el enlace se comporte normalmente
+
+      var destino = this.getAttribute('href'); // Obtiene el atributo href del enlace
+      var seccionDestino = document.querySelector(destino); // Encuentra el elemento destino
+
+      // Realiza el scroll suavemente hasta la sección destino
+      window.scrollTo({
+        top: seccionDestino.offsetTop,
+        behavior: 'smooth'
+      });
+    });
+  }
+});

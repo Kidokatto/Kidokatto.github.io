@@ -96,9 +96,13 @@ body {
 
 .lista-padre:hover .lista-anidada{
   display: flex;  
-  
 
 }
+
+  
+
+
+
  .logo-carrito {
   height: 35px;
   width: 35x;
@@ -213,7 +217,7 @@ h2 {
 hr {
   border: 1px solid blueviolet;
   width: 50%;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   margin-left: 20px;
 }
 
@@ -321,8 +325,8 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 0;
-  margin-top: 100px;
+  padding: 30px 0;
+  margin-top: 50px;
   border-top: 1px solid blueviolet;
   cursor: pointer;
 }
@@ -332,7 +336,7 @@ hr {
 }
 
 .footer .footer-h3 {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .footer a {
@@ -344,6 +348,10 @@ hr {
 
 .footer a:hover {
   color: blueviolet;
+}
+
+.derechosAutor p {
+  text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -420,6 +428,28 @@ hr {
     top: 210px;
     height: 520px;
   }
+
+  .lista-anidada {
+    display: none;
+    position: absolute;  
+    background-color: rgba(49, 49, 51, 0.479);
+    font-weight: bold;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 0px;
+    padding-top: 0px;
+    left: 140px;
+    
+  }
+  
+  
+  
+  .lista-padre:hover .lista-anidada{
+    display: flex;  
+  
+  }
+
+
 }
 
 .info-producto {

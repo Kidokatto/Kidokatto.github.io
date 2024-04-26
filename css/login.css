@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: black;
+  font-family: "Oswald", cursive;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.header-content {
+  display: flex;
+  width: 100%;
+}
+
+.menu {
+  position: fixed; /* Fijar la posición */
+  top: 0; /* Fijar en la parte superior */
+  left: 0; /* Fijar en el lado izquierdo */
+  width: 100%; /* Hacerlo ancho completo */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  background-color: rgb(49, 49, 51);
+  z-index: 2;
+}
+
+.menu li {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  color: #ffffff;
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 9px;
+  margin: 0px;
+}
+
+.menu .navbar ul li a:hover {
+  color: blueviolet;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.lista-anidada {
+  display: none;
+  position: absolute;
+  background-color: rgb(49, 49, 51);
+  font-weight: bold;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+.lista-padre:hover .lista-anidada {
+  display: flex;
+}
+
+.lista-anidada2 {
+}
+
+.logo-carrito {
+  height: 35px;
+  width: 35x;
+  color: white;
+}
+
+.logo {
+  font-size: 35px;
+  color: white;
+  background-image: url(/assets/Logo.png);
+  background-size: 35%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.loginclass {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(73, 70, 70, 0.918); /* Fondo gris con opacidad */
+  color: #ffffff; /* Texto blanco */
+  border: 2px solid purple; /* Bordes morados */
+  padding: 20px; /* Espacio interior */
+  width: 300px; /* Ancho del formulario */
+}
+
+.loginclass form {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginclass .title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.loginclass label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.loginclass label i {
+  margin-right: 10px;
+}
+
+.loginclass input[type="text"],
+.loginclass input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.loginclass .link {
+  text-align: right;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.loginclass button {
+  padding: 10px;
+  background-color: purple;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loginclass button:hover {
+  background-color: #6a0dad; /* Cambio de color al pasar el ratón */
+}
+
+.slider-container {
+  position: relative; /* Agrega posicionamiento relativo al contenedor */
+}
+
+.position {
+  position: absolute;
+  top: 190px;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  
+}
+
+.slider {
+  background-image: url("/assets/World\ Of\ Warcraft\ War\ Within.avif");
+  background-size: cover; /* La imagen se ajustará para cubrir completamente el área */
+  background-position: center; /* La imagen se centrará */
+  height: 100vh;
+  width: 100vw;
+  border-radius: 10px;
+  animation: animate 65s infinite;
+  
+}
+
+@keyframes animate {
+  0% {
+    background-image: url(/assets/World\ Of\ Warcraft\ War\ Within.avif);
+    
+    background-size: cover;
+  }
+  10% {
+    background-image: url(/assets/Spiderman\ 1.jpg);
+    background-size: cover;
+  }
+  20% {
+    background-image: url(/assets/Red\ dead\ redemtion\ 2.jpeg);
+    background-size: cover;
+  }
+  30% {
+    background-image: url(/assets/Cyberpunk\ 2077.jpg);
+    background-size: cover;
+  }
+  40% {
+    background-image: url(/assets/Minecraft.jpg);
+    background-size: cover;
+  }
+  50% {
+    background-image: url(/assets/God\ of\ war\ 4.jpg);
+    background-size: cover;
+  }
+  60% {
+    background-image: url(/assets/Call\ of\ Duty\ Modern\ Warfare\ II.jpg);
+    background-size: cover;
+  }
+  70% {
+    background-image: url(/assets/Far\ Cry\ 6.jpg);
+    background-size: cover;
+  }
+  80% {
+    background-image: url(/assets/Elden\ Ring.jpg);
+    background-size: cover;
+  }
+  90% {
+    background-image: url(/assets/Forza\ Horizon\ 5.jpg);
+    background-size: cover;
+  }
+  100% {
+    background-image: url(/assets/Injustice\ 2.jpg);
+    background-size: cover;
+  }
+}
+
+@media (max-width: 991px) {
+    .menu  {
+      padding: 20px;
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+  
+   
+  
+    .menu label {
+      display: initial;
+    }
+  
+    .menu .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      display: none;
+      background-color: #313133f8;  }
+  
+    .menu .navbar ul li {
+      width: 100%;
+    }
+    
+    .menu-hamburguesa {
+      width: 35px;
+      height: 35px;
+      margin-top: 15px;
+      transition: transform 0.3s ease;
+    }
+  
+    .menu-hamburguesa.rotada {
+      transform: rotate(90deg);
+    }
+    .btn-1 {
+      display: none;
+    }
+  
+    #menu:checked ~ .navbar {
+      display: initial;
+    }
+  
+    .footer {
+      margin-top: 30px;
+      padding: 30px;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer ul {
+      margin-top: 15px;
+      justify-content: center;
+    }  
+}

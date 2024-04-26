@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<hthtml lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glorius Games</title>
+    <link rel="icon" href="/assets/Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/stlye.css" />
+    <link rel="stylesheet" href="/css/modalStyle.css" />
+    <link rel="stylesheet" href="/css/carousel.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu container-4">
+        <a href="" class="logo" class="link">Glorious Games</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu"
+          ><img
+            class="menu-hamburguesa"
+            src="/assets/Menu Hamburguesa.png"
+            alt=""
+          />
+        </label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html#inicio">Inicio</a></li>
+            <li class="lista-padre">
+              <a href="#Nuestros-juegos">Nuestros Juegos</a>
+              <ul class="lista-anidada">
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#juegosMasVendidos">Juegos mas vendidos</a></li>
+              </ul>
+            </li>
+            <li class="lista-padre">
+              <a href="#">Generos</a>
+              <ul class="lista-anidada">
+                <li><a href="shooters.html#shooters">Shooters</a></li>
+                <li><a href="mundoAbierto.html#mundoabierto">Mundo Abierto</a></li>
+                <li><a href="horror.html#horror">Horror</a></li>
+                <li><a href="peleas.html#peleas">Peleas</a></li>
+                <li><a href="aventura.html#aventura">Aventura</a></li>
+
+              </ul>
+            </li>
+            <li><a href="login.html" class="btn-1">Login</a></li>
+            <!-- <li><a href="#"><img class="logo-carrito" src="/assets/Carrito de compras.png" alt=""></a></li> -->
+            <li>
+              <a href="#"
+                ><svg
+                  class="logo-carrito"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-content container"></div>
+      <div class="slider-container">
+        <div class="slider position"></div>
+      </div>
+    </header>
+    <section id="Nuestros-juegos" class="games container-1">
+      <h2 class="link" id="horror">Horror</h2>
+      <hr />
+      <div class="box-container-1">
+       
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal17">
+                Phasmophobia
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/PhasmoPhobia/Phasmophobia.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal17">
+                <div class="content-modal">
+                  <h2>Phasmophobia</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Phasmophobia is a 4 player online co-op psychological
+                    horror. Paranormal activity is on the rise and its up to you
+                    and your team to use all the ghost-hunting equipment at your
+                    disposal in order to gather as much evidence as you can.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal18">
+                Sons Of The Forest
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Sons Of The Forest/Sons Of The Forest.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal18">
+                <div class="content-modal">
+                  <h2>Sons Of The Forest</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Sent to find a missing billionaire on a remote island, you
+                    find yourself in a cannibal-infested hellscape. Craft,
+                    build, and struggle to survive, alone or with friends, in
+                    this terrifying new open-world survival horror simulator.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal19">
+                Poppy Playtime
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/PoppyPlayTime/poppy-playtime-background.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal19">
+                <div class="content-modal">
+                  <h2>Poppy Playtime</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    You must stay alive in this horror/puzzle adventure. Try to
+                    survive the vengeful toys waiting for you in the abandoned
+                    toy factory. Use your GrabPack to hack electrical circuits
+                    or nab anything from afar. Explore the mysterious
+                    facility... and don't get caught.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal20">
+                Project Zomboid
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Project Zomboid/Project Zomboid.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal20">
+                <div class="content-modal">
+                  <h2>Project Zomboid</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Project Zomboid is the ultimate in zombie survival. Alone or
+                    in MP: you loot, build, craft, fight, farm and fish in a
+                    struggle to survive. A hardcore RPG skillset, a vast map,
+                    massively customisable sandbox and a cute tutorial raccoon
+                    await the unwary. So how will you die? All it takes is a
+                    bite..
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal21">
+                Resident Evil 2 Remake
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Resident Evil 2/Re2 Remake.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal21">
+                <div class="content-modal">
+                  <h2>Resident Evil 2 Remake</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Publicado originalmente en 1998, Resident Evil 2, uno de los
+                    juegos más icónicos de todos los tiempos, regresa
+                    completamente reinventado para las consolas de nueva
+                    generación.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+    <br />
+    <br />
+    <footer class="footer container">
+      <h3>Glorious Games</h3>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Juegos</a></li>
+        <li><a href="#">Contactos</a></li>
+      </ul>
+    </footer>
+    <div class="derechosAutor">
+      <p>&copy; 2024 Glorious Games. Todos los derechos reservados.</p>
+      <p>26 de abril de 2024</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glorius Games</title>
+    <link rel="icon" href="/assets/Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/stlye.css" />
+    <link rel="stylesheet" href="/css/modalStyle.css" />
+    <link rel="stylesheet" href="/css/carousel.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu container-4">
+        <a href="" class="logo" class="link">Glorious Games</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu"
+          ><img
+            class="menu-hamburguesa"
+            src="/assets/Menu Hamburguesa.png"
+            alt=""
+          />
+        </label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html#inicio">Inicio</a></li>
+            <li class="lista-padre">
+              <a href="#Nuestros-juegos">Nuestros Juegos</a>
+              <ul class="lista-anidada">
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#juegosMasVendidos">Juegos mas vendidos</a></li>
+              </ul>
+            </li>
+            <li class="lista-padre">
+              <a href="#">Generos</a>
+              <ul class="lista-anidada">
+                <li><a href="shooters.html#shooters">Shooters</a></li>
+                <li>
+                  <a href="mundoAbierto.html#mundoabierto">Mundo Abierto</a>
+                </li>
+                <li><a href="horror.html#horror">Horror</a></li>
+                <li><a href="peleas.html#peleas">Peleas</a></li>
+                <li><a href="aventura.html#aventura">Aventura</a></li>
+              </ul>
+            </li>
+            <li><a href="login.html" class="btn-1">Login</a></li>
+            <!-- <li><a href="#"><img class="logo-carrito" src="/assets/Carrito de compras.png" alt=""></a></li> -->
+            <li>
+              <a href="#"
+                ><svg
+                  class="logo-carrito"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-content container"></div>
+      <div class="slider-container">
+        <div class="slider position"></div>
+      </div>
+    </header>
+    <section id="Nuestros-juegos" class="games container-1">
+      <h2 class="link" id="mundoabierto">Mundo Abierto</h2>
+      <hr />
+      <div class="box-container-1">
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal2">
+                World Of Warcraft The War Whitin
+              </button>
+
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/World Of Warcraft/World Of Warcraft War Within.avif"
+                  alt="producto"
+                />
+              </figure>
+
+              <div class="container-modal" id="modal2">
+                <div class="content-modal">
+                  <h2>World Of Warcraft The War Whitin</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Viaja por inéditos mundos subterráneos, repletos de
+                    maravillas ocultas y peligros al acecho, hasta las oscuras
+                    profundidades del imperio nerubiano, donde la maliciosa
+                    Presagista del Vacío está amasando fuerzas arácnidas para
+                    poner Azeroth de rodillas.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/World Of Warcraft/EpicEdition-thumbnail.avif"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/World Of Warcraft/Delves.avif"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/World Of Warcraft/HeroTalents.avif"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/World Of Warcraft/TheEarthen.avif"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/World Of Warcraft/Warbands.avif"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+
+                  <div class="precio">
+                    <p>$140.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$140.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal4">
+                Dont Starve Together
+              </button>
+
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Dont Starve/Dont Starve Together.png"
+                  alt="producto"
+                />
+              </figure>
+
+              <div class="container-modal" id="modal4">
+                <div class="content-modal">
+                  <h2>Dont Starve Together</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Don't Starve Together es la expansión multijugador
+                    independiente del juego de supervivencia sin límites Don't
+                    Starve.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+
+                  <div class="precio">
+                    <p>$25.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$25.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal6">
+                Elden Ring
+              </button>
+
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Elden Ring/Elden Ring.jpg"
+                  alt="producto"
+                />
+              </figure>
+
+              <div class="container-modal" id="modal6">
+                <div class="content-modal">
+                  <h2>Elden Ring</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    EL NUEVO JUEGO DE ROL Y ACCIÓN DE AMBIENTACIÓN FANTÁSTICA.
+                    Álzate, Sinluz, y que la gracia te guíe para abrazar el
+                    poder del Círculo de Elden y encumbrarte como señor del
+                    Círculo en las Tierras Intermedias.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+
+                  <div class="precio">
+                    <p>$160.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$160.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal8">
+                Far Cry 6
+              </button>
+
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Far Cry 6/Far Cry 6.jpg"
+                  alt="producto"
+                />
+              </figure>
+
+              <div class="container-modal" id="modal8">
+                <div class="content-modal">
+                  <h2>Far Cry 6</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Experimenta la adrenalina de una revolución guerrillera
+                    moderna. Gracias a unos paisajes impresionantes, unos
+                    tiroteos brutales y una gran variedad de experiencias de
+                    juego, nunca ha habido mejor momento para unirte a la lucha.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+
+                  <div class="precio">
+                    <p>$165.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$165.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal9">
+                Forza Horizon 5
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Forza Horizon 5/Forza Horizon 5.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal9">
+                <div class="content-modal">
+                  <h2>Forza Horizon 5</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Explora los vibrantes paisajes del mundo abierto de México y
+                    disfruta de una diversión sin límites al volante de los
+                    mejores coches del mundo. Conquista la escarpada Sierra
+                    Nueva en la experiencia definitiva del rally de Horizon.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$165.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$165.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal11">
+                Grand Theft Auto V
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/GTA5/Gta 5.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal11">
+                <div class="content-modal">
+                  <h2>Grand Theft Auto V</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Grand Theft Auto V para PC ofrece a los jugadores la opción
+                    de explorar el galardonado mundo de Los Santos y el condado
+                    de Blaine con una resolución de 4K y disfrutar del juego a
+                    60 fotogramas por segundo.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$165.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$165.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal12">
+                Injustice™ 2
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Injustice 2/Injustice 2.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal12">
+                <div class="content-modal">
+                  <h2>Injustice™ 2</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Construye y mejora la versión definitiva de tus leyendas
+                    favoritas de DC en INJUSTICE 2. Es tu superhéroe. Tu viaje.
+                    Tu Injustice.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$165.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$165.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal13">
+                Minecraft
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Minecraft/Minecraft.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal13">
+                <div class="content-modal">
+                  <h2>Minecraft</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    El mundo de Minecraft es vasto, ¿por qué no llevarlo más
+                    allá de sus fronteras de bloques? ¡Personaliza tu
+                    dispositivo con nuestros fondos de pantalla de Minecraft
+                    favoritos, banners de redes sociales y mucho más!
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$165.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$165.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal15">
+                Monster Hunter
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Monster Hunter/Monster Hunter.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal15">
+                <div class="content-modal">
+                  <h2>Monster Hunter</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    ¡Bienvenidos a un nuevo mundo! En Monster Hunter: World, la
+                    última entrega de la serie, podrás disfrutar de la mejor
+                    experiencia de juego, usando todos los recursos a tu alcance
+                    para acechar monstruos en un nuevo mundo rebosante de
+                    emociones y sorpresas.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal16">
+                New World
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/New World/New World.jpeg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal16">
+                <div class="content-modal">
+                  <h2>New World</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Explora un emocionante MMO de mundo abierto repleto de
+                    peligros y oportunidades en el que forjarás un nuevo destino
+                    en la isla sobrenatural de Aetérnum.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal18">
+                Sons Of The Forest
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Sons Of The Forest/Sons Of The Forest.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal18">
+                <div class="content-modal">
+                  <h2>Sons Of The Forest</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Sent to find a missing billionaire on a remote island, you
+                    find yourself in a cannibal-infested hellscape. Craft,
+                    build, and struggle to survive, alone or with friends, in
+                    this terrifying new open-world survival horror simulator.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal20">
+                Project Zomboid
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Project Zomboid/Project Zomboid.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal20">
+                <div class="content-modal">
+                  <h2>Project Zomboid</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Project Zomboid is the ultimate in zombie survival. Alone or
+                    in MP: you loot, build, craft, fight, farm and fish in a
+                    struggle to survive. A hardcore RPG skillset, a vast map,
+                    massively customisable sandbox and a cute tutorial raccoon
+                    await the unwary. So how will you die? All it takes is a
+                    bite..
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal22">
+                Read Dead Redemption II
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Read Dead Redemption 2/Red dead redemtion 2.jpeg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal22">
+                <div class="content-modal">
+                  <h2>Read Dead Redemption II</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Con más de 175 premios al Juego del año y más de 250
+                    valoraciones perfectas, Red Dead Redemption 2 es la épica
+                    historia de Arthur Morgan y la banda de Van der Linde, que
+                    huyen por toda América en el albor de una nueva era. También
+                    incluye acceso al mundo multijugador compartido de Red Dead
+                    Online.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal23">
+                Sea Of Thieves
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Sea Of Thieves/Sea Of Thieves.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal23">
+                <div class="content-modal">
+                  <h2>Sea Of Thieves</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Sea of Thieves es un exitoso juego de aventuras piratas que
+                    ofrece la experiencia pirata por excelencia de saquear
+                    tesoros perdidos, batallas intensas, vencer monstruos
+                    marinos y más. Sumérgete en esta edición revisada del juego,
+                    que incluye acceso a medios digitales de bonificación.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal24">
+                Sekiro Shadows Die Twice
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Sekiro Shadows Die Twice/Sekiro Shadows Die Twice.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal24">
+                <div class="content-modal">
+                  <h2>Sekiro Shadows Die Twice</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Juego del año - The Game Awards 2019 Mejor juego de acción
+                    de 2019 - IGN Traza tu propio camino hacia la venganza en la
+                    galardonada aventura de FromSoftware, creadores de
+                    Bloodborne y la saga Dark Souls. Véngate. Restituye tu
+                    honor. Mata con ingenio.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal25">
+                Marvel's Spider-Man Remastered
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Spdierman Remastered/Spiderman 1.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal25">
+                <div class="content-modal">
+                  <h2>Marvel's Spider-Man Remastered</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    En Marvel's Spider-Man Remasterizado, la vida de Peter
+                    Parker se topa con la de Spider-Man en una historia original
+                    repleta de acción. Ponte en la piel de un Peter Parker
+                    veterano que ha pulido sus habilidades en la lucha contra el
+                    crimen y los villanos en la Nueva York de Marvel.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal26">
+                Marvel's Spider-Man: Miles Morales
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Spiderman Miles Morales/Spiderman Miles Morales.png"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal26">
+                <div class="content-modal">
+                  <h2>Marvel's Spider-Man: Miles Morales</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Tras lo ocurrido en Marvel’s Spider-Man Remasterizado, Miles
+                    Morales se adapta a su nuevo barrio mientras sigue las
+                    huellas de Peter Parker para convertirse en un nuevo
+                    Spider-Man. Cuando la lucha de poderes amenaza con destruir
+                    su hogar, Miles debe tomar el relevo de Spider-Man.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal27">
+                STAR WARS Jedi: La Orden caída™
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Star Wars Jedi Fllen Order/Star Wars Jedi Fallen Order.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal27">
+                <div class="content-modal">
+                  <h2>STAR WARS Jedi: La Orden caída™</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Una aventura de dimensiones galácticas te espera en STAR
+                    WARS Jedi: Fallen Order, un juego de acción-aventura en
+                    tercera persona de Respawn Entertainment. Un padawan
+                    superviviente debe completar su entrenamiento, desarrollar
+                    nuevas y poderosas habilidades con la Fuerza y dominar la
+                    fuerza.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="box-1">
+          <div class="content">
+            <div class="info-producto">
+              <button class="open-modal" data-modal-id="modal28">
+                Cyberpunk 2077
+              </button>
+              <figure>
+                <img
+                  class="class-img"
+                  src="/assets/Cyberpunk 2077/Cyberpunk 2077.jpg"
+                  alt="producto"
+                />
+              </figure>
+              <div class="container-modal" id="modal28">
+                <div class="content-modal">
+                  <h2>Cyberpunk 2077</h2>
+                  <video
+                    class="video-frame"
+                    src="/assets/The Last Of Us/tlou.mp4"
+                    controls
+                  ></video>
+                  <p class="info-game">
+                    Cyberpunk 2077 es un RPG de aventura y acción de mundo
+                    abierto ambientado en el futuro sombrío de Night City, una
+                    peligrosa megalópolis obsesionada con el poder, el glamur y
+                    las incesantes modificaciones corporales.
+                  </p>
+                  <div class="carousel">
+                    <div class="carousel-images">
+                      <img
+                        src="/assets/"
+                        alt="Image 1"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 2"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 3"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 4"
+                        onclick="openFullscreen(this)"
+                      />
+                      <img
+                        src="/assets/"
+                        alt="Image 5"
+                        onclick="openFullscreen(this)"
+                      />
+                    </div>
+                  </div>
+                  <div class="fullscreen-image">
+                    <img src="" alt="Fullscreen Image" class="fullscreen-img" />
+                  </div>
+                  <div class="precio">
+                    <p>$220.000</p>
+                    <button class="boton-comprar">Añadir al carrito</button>
+                  </div>
+                  <div class="btn-cerrar">
+                    <button class="close-modal">Volver</button>
+                  </div>
+                </div>
+              </div>
+              <p>$220.000</p>
+              <button class="boton-comprar">Añadir al carrito</button>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <footer class="footer container">
+      <h3>Glorious Games</h3>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Juegos</a></li>
+        <li><a href="#">Contactos</a></li>
+      </ul>
+    </footer>
+    <div class="derechosAutor">
+      <p>&copy; 2024 Glorious Games. Todos los derechos reservados.</p>
+      <p>26 de abril de 2024</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
