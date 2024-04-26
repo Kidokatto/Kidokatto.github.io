@@ -22,9 +22,14 @@ openModalBtns.forEach((btn) => {
 closeModalBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     const modal = btn.closest('.container-modal');
+    const videos = modal.querySelectorAll('video');
+    videos.forEach((video) => {
+      video.pause();
+    });
     modal.style.display = 'none';
   });
 });
+
 
 // Función para abrir la imagen en pantalla completa
 function openFullscreen(img) {
@@ -64,3 +69,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+
+
