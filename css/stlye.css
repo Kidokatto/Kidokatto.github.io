@@ -110,6 +110,7 @@ body {
   margin-bottom: 5px;
   margin-top: 30px;
   margin-right: 40px;
+  border-radius: 15px;
 }
 
 .slider-container {
@@ -423,21 +424,19 @@ img {
 }
 
 
-@media only screen and (min-width: 1920px) {
-  .title{
+@media (min-width: 1920px) {
+  .title {
     font-size: 1rem;
     margin-bottom: 0.2rem;
-    
   }
   
-  .container-1{
+  .container-1 {
     margin-top: 1000px;
-  padding-left: 20px;
-  padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
-  
-}
 
 
 
